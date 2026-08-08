@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Shield Container -->
+    <path
+        android:pathData="M54,22 C68,22 80,26 80,26 C80,50 72,74 54,86 C36,74 28,50 28,26 C28,26 40,22 54,22 Z"
+        android:fillColor="#0B1C30"
+        android:strokeWidth="2.5"
+        android:strokeColor="#68DBA9" />
+
+    <!-- Eye Outer Shape (Emerald Green) -->
+    <path
+        android:pathData="M37,54 C42,42 66,42 71,54 C66,66 42,66 37,54 Z"
+        android:fillColor="#00A86B" />
+
+    <!-- Eye Pupil (Dark Navy) -->
+    <path
+        android:pathData="M54,54m-6,0a6,6 0 1,0 12,0a6,6 0 1,0 -12,0"
+        android:fillColor="#000F1D" />
+
+    <!-- Eye Iris Ring / Highlight (Light Green / White) -->
+    <path
+        android:pathData="M54,54m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0"
+        android:fillColor="#82F5C1" />
+
+    <!-- Highlight Specular Dot -->
+    <path
+        android:pathData="M52.5,52.5m-1,0a1,1 0 1,0 2,0a1,1 0 1,0 -2,0"
+        android:fillColor="#FFFFFF" />
+</vector>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Shield Shadow / Outer border -->
+    <path
+        android:pathData="M60,12 C78,12 94,18 94,18 C94,56 82,88 60,108 C38,88 26,56 26,18 C26,18 42,12 60,12 Z"
+        android:fillColor="#0B1C30"
+        android:strokeWidth="3"
+        android:strokeColor="#1E3A52" />
+
+    <!-- Eye Outer Contour (Emerald Green) -->
+    <path
+        android:pathData="M38,60 C46,44 74,44 82,60 C74,76 46,76 38,60 Z"
+        android:fillColor="#00A86B" />
+
+    <!-- Eye Center Circle (Navy) -->
+    <path
+        android:pathData="M60,60m-9,0a9,9 0 1,0 18,0a9,9 0 1,0 -18,0"
+        android:fillColor="#000F1D" />
+
+    <!-- Eye Pupil Emerald Dot -->
+    <path
+        android:pathData="M60,60m-4.5,0a4.5,4.5 0 1,0 9,0a4.5,4.5 0 1,0 -9,0"
+        android:fillColor="#82F5C1" />
+
+    <!-- Specular Highlight -->
+    <path
+        android:pathData="M57.5,57.5m-1.8,0a1.8,1.8 0 1,0 3.6,0a1.8,1.8 0 1,0 -3.6,0"
+        android:fillColor="#FFFFFF" />
+</vector>

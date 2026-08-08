@@ -1,0 +1,6 @@
+{
+  "name": "TrustLens",
+  "description": "Banking compliance and AI-driven document verification app with risk scoring, compliance chatbot, user profile management, and multi-language support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
